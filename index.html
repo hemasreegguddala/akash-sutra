@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Akasha Sutra - Offline Emergency Communication</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Akasha Sutra</h1>
+        <p>Offline Emergency Communication Between Nearby Devices</p>
+    </header>
+
+    <div class="card">
+        <h2>📡 Device Discovery</h2>
+
+        <p>
+            Nearby devices can communicate directly without
+            mobile networks or internet connectivity.
+        </p>
+
+        <div id="deviceList" class="device-list"></div>
+
+        <span class="status">Offline Network Active</span>
+    </div>
+
+
+    <div class="card">
+        <h2>🚨 Emergency SOS</h2>
+
+        <p>
+            Send an emergency message through nearby devices.
+        </p>
+
+        <br>
+
+        <button id="sendSOS">
+            Send SOS
+        </button>
+
+        <div id="result"></div>
+    </div>
+
+
+    <div class="card">
+        <h2>🔄 Message Routing</h2>
+
+        <p>
+            If the destination device is not directly reachable,
+            the emergency message can travel through nearby devices.
+        </p>
+
+        <div class="route">
+            Device A → Device B → Device C → Device D
+        </div>
+    </div>
+
+
+    <div class="card">
+        <h2>💡 How It Works</h2>
+
+        <p>
+            1. Devices discover nearby devices.
+        </p>
+
+        <p>
+            2. User sends an emergency message.
+        </p>
+
+        <p>
+            3. The message is forwarded through nearby devices.
+        </p>
+
+        <p>
+            4. The emergency message reaches the destination.
+        </p>
+    </div>
+
+
+    <footer>
+        Akasha Sutra | Disaster Management Prototype
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
